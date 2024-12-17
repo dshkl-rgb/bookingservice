@@ -14,7 +14,8 @@ Windows Powershell:\
 [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
 
 User swagger openapi to import a postman collection (easier testing)
-[how to import swagger into postman](https://learning.postman.com/docs/getting-started/importing-and-exporting/importing-from-swagger/)\
+[http://localhost:8080/v3/api-docs](http://localhost:8080/v3/api-docs) - use this link for import
+[how to import swagger into postman](https://learning.postman.com/docs/getting-started/importing-and-exporting/importing-from-swagger/) 
 ### Sample Requests
 
 #### Get available rooms
