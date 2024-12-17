@@ -8,8 +8,9 @@ Linux/Mac\
 
 Windows Powershell:\
 `docker compose down --volumes; mvn clean install; docker compose -f compose.yaml up --build`
-
-*restart the env without running tests*: docker compose down --volumes && mvn clean install **-DskipTests** && docker compose -f compose.yaml up --build
+\
+*restart the env without running tests*:\ 
+docker compose down --volumes && mvn clean install **-DskipTests** && docker compose -f compose.yaml up --build
 ### Swagger location
 [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
 
