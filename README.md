@@ -2,7 +2,8 @@
 java 21, mvn latest, docker latest, docker-compose latest
 ### How to Run
 navigate to repo root
-docker compose down --volumes && mvn clean install  && docker compose -f compose.yaml up --build
+execute:
+`docker compose down --volumes && mvn clean install  && docker compose -f compose.yaml up --build`
 
 *restart the env without running tests*: docker compose down --volumes && mvn clean install **-DskipTests** && docker compose -f compose.yaml up --build
 ### Swagger location
