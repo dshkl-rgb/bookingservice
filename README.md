@@ -1,4 +1,7 @@
 ### Prerequisites
+Since Postgres was chosen as DB, for ease of execution docker is used. Other way is to use embedded H2 database (not this implementation)\
+then docker wouldn't be needed and everything could be run with mvn.\
+
 java 21, mvn latest, docker latest, docker-compose latest
 ### How to Run
 navigate to repo root \
